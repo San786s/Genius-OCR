@@ -2860,4 +2860,22 @@ html, body {
 
 .footer-content .footer-section p a{
   color: yellow;
+
+}
+.header-logo-title {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-icon {
+    height: 70px; /* adjust based on your design */
+    width: auto;  /* keeps image proportion */
+    max-height: 100%;
+}
+
+@media (max-width: 768px) {
+    .logo-icon {
+        height: 40px; /* slightly smaller on mobile */
+    }
 }
