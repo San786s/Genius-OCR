@@ -2887,8 +2887,13 @@ html, body {
        padding: 3px 10px;
     }
 }
-
+@media (max-width: 355px) {
+    .menu-btn {
+       padding: 3px 6px;
+    }
+}
    
+
 
 
 
