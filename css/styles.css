@@ -2887,12 +2887,14 @@ html, body {
        padding: 3px 10px;
     }
 }
-@media (max-width: 355px) {
+@media (max-width: 364px) {
     .menu-btn {
-       padding: 3px 4px;
+        padding: 4px 1px;
+        font-size: 16px;
     }
 }
    
+
 
 
 
