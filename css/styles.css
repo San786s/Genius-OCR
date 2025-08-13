@@ -2876,8 +2876,11 @@ html, body {
 
 @media (max-width: 768px) {
     .logo-icon {
-        height: 40px; /* slightly smaller on mobile */
+        height: 30px; /* slightly smaller on mobile */
     }
+  .header-logo-title {
+    gap: 7px;
+}
 }
 @media (max-width: 500px) {
     .menu-btn {
@@ -2886,5 +2889,6 @@ html, body {
 }
 
    
+
 
 
