@@ -2879,4 +2879,12 @@ html, body {
         height: 40px; /* slightly smaller on mobile */
     }
 }
+@media (max-width: 500px) {
+    .menu-btn {
+       padding: 3px 10px;
+    }
+}
+
+   
+
 
