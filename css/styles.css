@@ -2897,7 +2897,14 @@ html, body {
     gap: 3px;
     }
 }
+@media (max-width: 365px) {
+  .menu-text {
+    display: none;
+  }
+}
+
  
+
 
 
 
