@@ -1624,6 +1624,18 @@ async function uploadImage() {
     }
 }
 
+function updateMenuText() {
+  const btn = document.getElementById('menu-btn');
+  if (window.innerWidth < 365) {
+    btn.textContent = '☰';
+  } else {
+    btn.textContent = '☰ Menu';
+  }
+}
+
+window.addEventListener('resize', updateMenuText);
+window.addEventListener('load', updateMenuText);
+
   // Attach Event Listeners
 document.getElementById("pdf-file-input").addEventListener("change", function () {
   console.log("File input changed!"); // Debugging: Check if event is triggered
@@ -1646,4 +1658,5 @@ document.getElementById("pdf-download-btn").addEventListener("click", downloadIm
 document.getElementById("download-btn")?.addEventListener("click", () => downloadFile("txt"));
 document.getElementById("download-word")?.addEventListener("click", () => downloadFile("docx"));
 document.getElementById("download-excel")?.addEventListener("click", () => downloadFile("xlsx"));
+
 
