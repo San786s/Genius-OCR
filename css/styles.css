@@ -2889,11 +2889,11 @@ html, body {
 }
 @media (max-width: 364px) {
     .menu-btn {
-        padding: 4px 1px;
-        font-size: 16px;
+        padding: 4px 16px;
+        font-size: 18px;
     }
   .mobile-menu-container {
-            margin-right: 15px;
+            margin-right: 9px;
     gap: 3px;
     }
 }
@@ -2904,6 +2904,7 @@ html, body {
 }
 
  
+
 
 
 
