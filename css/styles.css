@@ -2865,11 +2865,11 @@ html, body {
 .header-logo-title {
     display: flex;
     align-items: center;
-    
+    gap: 10px;
 }
 
 .logo-icon {
-    height: 70px; /* adjust based on your design */
+    height: 35px; /* adjust based on your design */
     width: auto;  /* keeps image proportion */
     max-height: 100%;
 }
@@ -2879,3 +2879,4 @@ html, body {
         height: 40px; /* slightly smaller on mobile */
     }
 }
+
