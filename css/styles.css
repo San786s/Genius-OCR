@@ -2882,13 +2882,14 @@ html, body {
     gap: 7px;
 }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .menu-btn {
        padding: 3px 10px;
     }
 }
 
    
+
 
 
 
